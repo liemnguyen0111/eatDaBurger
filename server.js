@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require("express");
 const { join } = require("path");
 const app = express();
@@ -9,7 +11,7 @@ app.use(express.json());
 app.get('/', function(request, response) {
     response.send('Hello World!');
   });
-  
+
 app.engine("handlebars", require("express-handlebars")());
 app.set("view engine", "handlebars");
 
