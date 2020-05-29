@@ -8,10 +8,6 @@ app.use(express.static(join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get('/', function(request, response) {
-    response.send('Hello World!');
-  });
-
 app.engine("handlebars", require("express-handlebars")());
 app.set("view engine", "handlebars");
 
