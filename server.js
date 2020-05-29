@@ -13,4 +13,4 @@ app.set("view engine", "handlebars");
 
 app.use(require("./controllers"));
 
-app.listen(process.env.PORT || 3000, () => console.log(`http://localhost:${process.env.PORT}`));
+app.listen(process.env.PORT || 3000, () => console.log(`http://localhost:3000`));
