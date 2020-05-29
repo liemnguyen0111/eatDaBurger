@@ -1,10 +1,19 @@
 {
   "name": "eatDaBurger",
   "version": "1.0.0",
-  "description": "## Description",
-  "main": "node server.js",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -14,13 +23,10 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liemnguyen0111/NoteTaker/issues"
+    "url": "https://github.com/liemnguyen0111/eatDaBurger/issues"
   },
-  "homepage": "https://github.com/alanhlee/burger#readme",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^4.0.4",
-    "mysql2": "^2.1.0"
+  "homepage": "https://github.com/liemnguyen0111/eatDaBurger#readme",
+  "engines": {
+    "node": "10.x"
   }
 }
