@@ -10,5 +10,5 @@
 ![GIF](./gif/Devour.gif)
 
 # You can find the link below to the application
-[GitHub](https://github.com/liemnguyen0111/eatDaBurger)
-[Deploy](https://protected-savannah-93096.herokuapp.com/?name=Animal+fry%27s)
+* [GitHub](https://github.com/liemnguyen0111/eatDaBurger)
+* [Deploy link Eat Da Burger](https://protected-savannah-93096.herokuapp.com/?name=Animal+fry%27s)
