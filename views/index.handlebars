@@ -1,5 +1,5 @@
 <h1>Burgers to Devour</h1>
-<img id='burgerImg' src="./img/greenBurger.jpg" alt="Green Burger">
+<div id='burgerImg'><img  src="./img/greenBurger.jpg" alt="Green Burger"></div>
 <form>
   <p>
     <label for="title">Burger Name</label>
@@ -9,6 +9,7 @@
 </form>
 <div id='listContainer'>
 <ol id="burgers">
+   <h2>Devour me</h2>
   {{#each devour}}
   <li>
     {{this.burger_name}}
@@ -17,7 +18,9 @@
   </li>
   {{/each}}
 </ol>
+
 <ul id='devoured'>
+  <h2>Devoured</h2>
   {{#each devoured}}
   <li>
     {{this.burger_name}}

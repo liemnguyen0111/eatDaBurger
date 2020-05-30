@@ -41,5 +41,6 @@ document.addEventListener('click', e => {
 
 document.getElementById('addBurger').addEventListener('click', e => {
   axios.post('/api/burgers', {burger_name: document.getElementById('burgerName').value, devoured: 0})
+  
   devoured()
 })
